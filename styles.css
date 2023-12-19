@@ -1,0 +1,38 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  max-height: 97vh;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgreen;
+  height: 100%;
+}
+main #con-box {
+  background-color: white;
+  height: 90%;
+  width: 50%;
+  overflow: scroll;
+}
+main #con-box .right {
+  background-color: lightcoral;
+  text-align: right;
+}
+main #con-box .left {
+  background-color: lightcyan;
+}
+main #input-box {
+  margin-top: 5px;
+  width: 50%;
+  display: flex;
+}
+main #input-box textarea {
+  width: 80%;
+}
+main #input-box button {
+  width: 20%;
+}/*# sourceMappingURL=styles.css.map */
