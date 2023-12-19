@@ -18,11 +18,11 @@ main #con-box {
   width: 50%;
   overflow: scroll;
 }
-main #con-box .right {
+main #con-box p:nth-child(odd) {
   background-color: lightcoral;
   text-align: right;
 }
-main #con-box .left {
+main #con-box p:nth-child(even) {
   background-color: lightcyan;
 }
 main #input-box {

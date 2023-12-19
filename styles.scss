@@ -15,11 +15,11 @@ main {
         height: 90%;
         width: 50%;
         overflow:scroll;
-        .right{
+        p:nth-child(odd){
             background-color: lightcoral;
             text-align: right;
         }
-        .left {
+        p:nth-child(even){
             background-color: lightcyan;
         }
     }
